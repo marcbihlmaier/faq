@@ -16,8 +16,8 @@ git clone https://github.com/marcbihlmaier/faq.git
 cd faq
 # preparing data mount to docker container
 echo "     - $(pwd)/src:/wiki" >> docker-compose.yaml
-docker compose build
-docker compose up
+sudo docker compose build
+sudo docker compose up
 ```
 
 Open in your browser: http://127.0.0.1:8000/
