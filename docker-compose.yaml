@@ -1,0 +1,13 @@
+services:
+  http:
+    image: http
+    entrypoint: 
+    - mkdocs
+    command:
+    - serve
+    ports:
+      - 8000:8000
+    build:
+      context: docker-images/http
+      dockerfile: Dockerfile
+    volumes:

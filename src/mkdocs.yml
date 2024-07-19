@@ -1,0 +1,24 @@
+site_name: question, marc?
+dev_addr: "0.0.0.0:8000"
+theme:
+  name: material
+  features:
+    - navigation.sections
+  palette:
+    # - scheme: default
+    #   toggle:
+    #     icon: material/toggle-switch-off-outline
+    #     name: Switch to dark mode
+    - scheme: slate
+      # toggle:
+      #   icon: material/toggle-switch
+      #   name: Switch to light mode    
+plugins:
+  - blog:
+      blog_dir: . 
+  - search
+  - tags
+nav:
+  - index.md
+extra_css:
+  - stylesheets/extra.css  
