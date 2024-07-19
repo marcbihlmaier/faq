@@ -6,7 +6,7 @@ will be hosted as a very old school internet blog
 
 ## requirements
 
-* [Docker] (https://docs.docker.com/engine/install/)
+* [Docker](https://docs.docker.com/engine/install/)
 
 ## you go, girl!
 
